@@ -3,6 +3,7 @@ from colorama import Fore
 from colorama import init
 from termcolor import colored
 from discord_webhook import DiscordWebhook, DiscordEmbed
+from urllib.request import Request, urlopen
 
 
 init()
