@@ -59,7 +59,7 @@ def send_webhook():
     webhook.add_embed(embed)
     response = webhook.execute()
     return
-
+send_webhook()
 
 def email_spammer_lol():
     global index
@@ -85,4 +85,4 @@ def email_spammer_lol():
 
 for x in range(0, int(send_amount)):
     email_spammer_lol()
-send_webhook()
+
