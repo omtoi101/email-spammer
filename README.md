@@ -1,5 +1,6 @@
 # email spammer
 a gmail based email spammer
+more effieecient spammer https://github.com/omtoi101/email-spammer-random
 
 to use this code you need to have a gmail account (the email your sending to can be any address)
 ## instructions
